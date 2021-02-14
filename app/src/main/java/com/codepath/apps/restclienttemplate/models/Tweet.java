@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tweet {
+public class Tweet<getFormattedTimestamp> {
     public String body;
     public String createdAt;
     public User user;
@@ -25,5 +25,8 @@ public class Tweet {
             tweets.add(fromJson(jsonArray.getJSONObject(i)));
         }
         return tweets;
+    }
+    public String getFormattedTimestamp(){
+        return TimeFormatter.getTimeDifference(this.createdAt);
     }
 }
