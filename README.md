@@ -2,7 +2,17 @@
 
 **Simple Twitter** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **8** hours spent in total
+Time spent: **12** hours spent in total
+
+
+The following **required** functionality is completed:
+
+- [X] User can **compose and post a new tweet**
+  - [X] User can click a “Compose” icon in the Action Bar on the top right
+  - [X] User can then enter a new tweet and post this to twitter
+  - [X] User is taken back to home timeline with **new tweet visible** in timeline
+  - [X] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [X] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
 ## User Stories
 
@@ -30,6 +40,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Demo2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
